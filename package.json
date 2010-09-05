@@ -1,0 +1,29 @@
+{
+    "name": "q-util",
+    "description": "Construction zone for a Q promise composition library.",
+    "version": "0.0.0",
+    "homepage": "http://github.com/kriskowal/q-util/",
+    "author": "Kris Kowal <kris@cixar.com> (http://github.com/kriskowal/)",
+    "bugs": {
+        "mail": "kris@cixar.com",
+        "web": "http://github.com/kriskowal/q-util/issues"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://github.com/kriskowal/q-util/raw/master/LICENSE"
+        }
+    ],
+    "main": "q-util.js",
+    "dependencies": {
+        "util": ">=0.0.0",
+        "q": ">=0.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/kriskowal/q-util.git"
+    },
+    "engines": {
+        "node": ">=0.2.0"
+    }
+}
