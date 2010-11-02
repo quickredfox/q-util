@@ -66,6 +66,14 @@ Exports all of the "q" API for convenience in addition to:
             })
         });
 
+    chain(f, g, h, ...)
+
+        Calls each function in order with the resolved return
+        value of the previous. 
+
+        `Q.chain(f, g, h)` is equivalent to
+        `[f, g, h].reduce(Q.when, undefined)`
+
     sum(values)
         returns a promise for the sum of each value when
         it resolves.
